@@ -132,7 +132,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
-  // TODO: add animation when adding/removing favourite
   const toggleFavourite = useCallback((itemId: string) => {
     setFavourites((prev) => {
       const next = prev.includes(itemId)
