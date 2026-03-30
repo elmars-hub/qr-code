@@ -132,7 +132,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
-  // toggle for fav
   const toggleFavourite = useCallback((itemId: string) => {
     setFavourites((prev) => {
       const next = prev.includes(itemId)
