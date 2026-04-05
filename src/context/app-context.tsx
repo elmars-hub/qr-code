@@ -158,13 +158,13 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   return (
     <AppContext.Provider
       value={{
-        settings,s
+        settings,
         currentTheme,
         currentFont,
         favourites,
         updateSettings,
         toggleFavourite,
-        // isFavourite,
+        isFavourite,
       }}
     >
       {children}
