@@ -172,8 +172,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   );
 }
 
-// export function useAppContext() {
-//   const ctx = useContext(AppContext);
-//   if (!ctx) throw new Error("useAppContext must be used within the AppProvider");
-//   return ctx;
+export function useAppContext() {
+  const ctx = useContext(AppContext);
+  if (!ctx)
+    throw new Error("useAppContext must be used within the AppProvider");
+  return ctx;
 }
