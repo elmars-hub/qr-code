@@ -54,22 +54,22 @@ function applyTheme(theme: ThemeConfig, brandOverride?: string) {
   const colors = theme.colors;
   const brand = brandOverride || colors.brand;
 
-  root.style.setProperty("--background", colors.background);
-  root.style.setProperty("--foreground", colors.foreground);
-  root.style.setProperty("--card", colors.card);
-  root.style.setProperty("--card-foreground", colors.cardForeground);
-  root.style.setProperty("--primary", brand);
-  root.style.setProperty("--primary-foreground", colors.primaryForeground);
-  root.style.setProperty("--secondary", colors.secondary);
-  root.style.setProperty("--secondary-foreground", colors.secondaryForeground);
-  root.style.setProperty("--muted", colors.muted);
-  root.style.setProperty("--muted-foreground", colors.mutedForeground);
-  root.style.setProperty("--accent", colors.accent);
-  root.style.setProperty("--accent-foreground", colors.accentForeground);
-  root.style.setProperty("--border", colors.border);
-  root.style.setProperty("--input", colors.input);
-  root.style.setProperty("--ring", brand);
-  root.style.setProperty("--brand", brand);
+  // root.style.setProperty("--background", colors.background);
+  // root.style.setProperty("--foreground", colors.foreground);
+  // root.style.setProperty("--card", colors.card);
+  // root.style.setProperty("--card-foreground", colors.cardForeground);
+  // root.style.setProperty("--primary", brand);
+  // root.style.setProperty("--primary-foreground", colors.primaryForeground);
+  // root.style.setProperty("--secondary", colors.secondary);
+  // root.style.setProperty("--secondary-foreground", colors.secondaryForeground);
+  // root.style.setProperty("--muted", colors.muted);
+  // root.style.setProperty("--muted-foreground", colors.mutedForeground);
+  // root.style.setProperty("--accent", colors.accent);
+  // root.style.setProperty("--accent-foreground", colors.accentForeground);
+  // root.style.setProperty("--border", colors.border);
+  // root.style.setProperty("--input", colors.input);
+  // root.style.setProperty("--ring", brand);
+  // root.style.setProperty("--brand", brand);
 }
 
 function applyFont(font: FontConfig) {
