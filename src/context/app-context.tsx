@@ -49,6 +49,7 @@ function loadFavourites(): string[] {
   return [];
 }
 
+//ui function
 function applyTheme(theme: ThemeConfig, brandOverride?: string) {
   const root = document.documentElement;
   const colors = theme.colors;
